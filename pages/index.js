@@ -47,7 +47,7 @@ class Index extends Component {
         const {userData, initialData} = this.props;
         return (
             <BaseLayout>
-                <h1>Hello, I am in Index page</h1>
+                <h1>Hello, I am in Index title page and  I updated</h1>
                 <h2>{this.state.title}</h2>
                 <h2>{userData.title}</h2>
                 <button onClick={this.updateTitle}>Change title</button>
